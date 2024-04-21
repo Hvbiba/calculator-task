@@ -102,16 +102,3 @@ hsl(221deg, 14%, 31%)
         padding: 5px;
     }
 }
-/* dark and light mode*/
-.mode{
-    color: black;
-}
-.background{
-    background-color: #db7093;
-}
-.calc{
-    background-color: #f3d1d6 ;
-}
-.equalBtn{
-    background-color: #e4007c ;
-}

@@ -29,16 +29,3 @@ let equalBtn = document.querySelector('#equal');
 equalBtn.addEventListener('click', () => {
    label.textContent = eval(label.textContent);
 });
-
-
-// dark and light mode 
-let mode=document.getElementById('mode');
-let body=document.body;
-let container=document.getElementById('container');
-let BTN=document.getElementById('equal');
-mode.addEventListener("click",function(){
-    mode.classList.toggle('mode');
-    body.classList.toggle("background");
-    container.classList.toggle('calc');
-    BTN.classList.toggle('equalBtn');
-});
